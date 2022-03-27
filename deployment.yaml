@@ -13,5 +13,5 @@ spec:
         app: bol-mancala
     spec:
       containers:
-        - name: bol-mancala
-          image: bol-mancala-image
+        - name: bol-mancala-image
+          image: europe-central2-docker.pkg.dev/bol-mancala-345402/bol-mancala-repo/bol-mancala-image:$GITHUB_SHA
