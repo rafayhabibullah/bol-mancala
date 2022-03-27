@@ -47,7 +47,7 @@ jobs:
       with:
         token_format: 'access_token'
         workload_identity_provider: 'projects/913400844947/locations/global/workloadIdentityPools/bol-mancala/providers/github-actions'
-        service_account: 'bol-mancala-service-account@carbide-buckeye-345400.iam.gserviceaccount.com'
+        service_account: '913400844947-compute@developer.gserviceaccount.com'
 
     # Alternative option - authentication via credentials json
     # - id: 'auth'
