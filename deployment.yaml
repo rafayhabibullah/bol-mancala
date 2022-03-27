@@ -15,6 +15,3 @@ spec:
       containers:
         - name: bol-mancala
           image: europe-central2-docker.pkg.dev/bol-mancala-345402/bol-mancala-repo/bol-mancala-image
-          imagePullPolicy: Always
-          ports:
-            - containerPort: 8080
