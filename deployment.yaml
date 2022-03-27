@@ -18,5 +18,3 @@ spec:
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
-      imagePullSecrets:
-        - name: europe-central2-docker.pkg.dev
