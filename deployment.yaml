@@ -4,6 +4,9 @@ metadata:
   name: bol-mancala
 spec:
   replicas: 2
+  selector:
+    matchLabels:
+      app: bol-mancala
   template:
     metadata:
       labels:
@@ -11,9 +14,7 @@ spec:
     spec:
       containers:
         - name: bol-mancala
-          image: registry.gitlab.com/rafay-habibullah/bol-mancala
+          image: europe-central2-docker.pkg.dev/bol-mancala-345402/bol-mancala-repo/bol-mancala-image
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
-      imagePullSecrets:
-        - name: registry.gitlab.com
