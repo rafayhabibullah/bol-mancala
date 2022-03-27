@@ -46,7 +46,7 @@ jobs:
       uses: 'google-github-actions/auth@v0'
       with:
         token_format: 'access_token'
-        workload_identity_provider: 'projects/913400844947/locations/global/workloadIdentityPools/github-actions/providers/github-actions'
+        workload_identity_provider: 'projects/913400844947/locations/global/workloadIdentityPools/bol-mancala/*'
         service_account: 'bol-mancala-service-account@carbide-buckeye-345400.iam.gserviceaccount.com'
 
     # Alternative option - authentication via credentials json
