@@ -57,9 +57,9 @@
 			<artifactId>spring-boot-starter-data-mongodb</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>org.springframework.restdocs</groupId>
-			<artifactId>spring-restdocs-mockmvc</artifactId>
-			<scope>test</scope>
+			<groupId>org.springdoc</groupId>
+			<artifactId>springdoc-openapi-ui</artifactId>
+			<version>1.6.6</version>
 		</dependency>
 	</dependencies>
 
